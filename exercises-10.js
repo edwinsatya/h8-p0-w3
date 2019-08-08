@@ -8,7 +8,7 @@ function perkalianUnik(arr) {
         jmlPerkalian = jmlPerkalian * arr[i];
         if (i == arr.length-1) {
             for (var j = 0; j < arr.length; j++) {
-                newArray.push(jmlPerkalian / arr[j]);
+                newArray[newArray.length] = jmlPerkalian / arr[j];
             } 
         } 
     }
